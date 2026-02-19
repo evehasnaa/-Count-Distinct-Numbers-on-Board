@@ -1,3 +1,8 @@
+# Count Distinct Numbers on Board
+
+## Solution
+
+```python
 class Solution:
     def monkeyMove(self, n: int) -> int:
         mod = 10**9 + 7
@@ -7,4 +12,4 @@ class Solution:
         else:
             res += mod
             return res
-
+```
